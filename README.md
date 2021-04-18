@@ -1,2 +1,2 @@
-# goit-markup-hw-03
-Home task 3
+# goit-markup-hw-02
+Hometask 2
