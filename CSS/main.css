@@ -64,7 +64,9 @@
 /* Секция Проекты */
 h2{
   font-size: 18px;
+  font-weight: 700;
 }
+
 .caption-foto{
   font-weight: 400;
   font-size: 16px;

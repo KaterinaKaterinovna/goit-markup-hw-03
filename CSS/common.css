@@ -24,9 +24,10 @@
     color: inherit;
   }
   .link:hover,
-  .link:focus,{
+  .link:focus {
     color: var(--accent-text-color);
   }
+
   .link:active{
     color:rgb(228, 101, 228)
   }
