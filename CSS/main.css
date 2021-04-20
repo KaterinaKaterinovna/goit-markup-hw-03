@@ -42,9 +42,11 @@
 /*Секция Чем мы занимаемся/Наша команда */
 .page-title{
   font-weight: 700;
+  text-align: center;
+  font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  font-size: 36px;
+  
 }
 .foto-name{
   font-weight: 500;

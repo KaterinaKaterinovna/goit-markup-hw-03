@@ -18,6 +18,10 @@
   ul {
     list-style: none;
   }
+
+  span{
+color: var(--accent-text-color);
+  }
   
   .link{
     text-decoration: none;
@@ -67,11 +71,11 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: var(--accent-text-color);
+  color: #000000;
   }
   
   .footer-logo{
-    color: var(--accent-text-color) ;
+    color: #ffffff ;
   }
   
     .address{
