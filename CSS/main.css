@@ -30,6 +30,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-size: 14px;
+  width: 270px;
+  height: 16px;
 }
 .page-text{
   font-weight: 400;
@@ -37,6 +39,10 @@
   letter-spacing: 0.03em;
   font-size: 14px;
   color: var(--secondary-text-color);
+  width: 270px;
+  height: 75px;
+  
+  
 }
 
 /*Секция Чем мы занимаемся/Наша команда */
