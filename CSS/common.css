@@ -23,7 +23,18 @@
   .link{
     text-decoration: none;
     color: inherit;
+    margin-right: 50px;
   }
+
+  .link-contact.footer{
+    flex-direction: column;
+  }
+
+  .link.footer{
+    margin-right: 0;
+    margin-bottom: 9px;
+  }
+
   .link:hover,
   .link:focus,{
     color: var(--accent-text-color);
@@ -33,12 +44,12 @@
   }
 
   .link-contact{
-  font-weight: 500;
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    font-style: normal;
   }
   
   .button{
@@ -55,6 +66,10 @@
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.02em;
+  }
+
+  .link-nav{
+    display:flex;
   }
   
   .page-current{
