@@ -19,8 +19,13 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: #2196F3;
   cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus{
+color: #188CE8;
 }
 
 /* Секция преимущества */
@@ -30,8 +35,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-size: 14px;
-  width: 270px;
-  height: 16px;
 }
 .page-text{
   font-weight: 400;
@@ -39,20 +42,14 @@
   letter-spacing: 0.03em;
   font-size: 14px;
   color: var(--secondary-text-color);
-  width: 270px;
-  height: 75px;
-  
-  
 }
 
 /*Секция Чем мы занимаемся/Наша команда */
 .page-title{
   font-weight: 700;
-  text-align: center;
-  font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  
+  font-size: 36px;
 }
 .foto-name{
   font-weight: 500;
@@ -72,9 +69,7 @@
 /* Секция Проекты */
 h2{
   font-size: 18px;
-  font-weight: 700;
 }
-
 .caption-foto{
   font-weight: 400;
   font-size: 16px;
