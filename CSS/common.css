@@ -27,12 +27,18 @@
   .link:active{
   color:rgb(228, 101, 228)
   }
-  
-  .link{
-  text-decoration: none;
-  color: inherit;
-  margin-right: 50px;
-  }
+
+ .link{
+ text-decoration: none;
+ color: inherit;
+ }
+
+ .link-nav:not(:last-child){
+   margin-right: 50px;
+ }
+ .link-contact:not(:last-child){
+   margin-right: 50px;
+ }
 
    /* Navigation header */
   .link-nav{
