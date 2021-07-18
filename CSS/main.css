@@ -3,11 +3,21 @@
   background-color: var(--dark-bg-color);
 }
 
+
+/* Container Hero */
+.container{
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
 .hero-title{
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -15,11 +25,14 @@
 
 /*Кнопка Заказать услугу */
 .main-button{
+  background-color: #2196F3;
   font-weight: 700;
   font-size: 16px;
+  width: 200px;
+  height: 50px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #2196F3;
+  color: #ffffff;
   cursor: pointer;
 }
 
