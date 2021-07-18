@@ -33,10 +33,8 @@
  color: inherit;
  }
 
- .link-nav:not(:last-child){
-   margin-right: 50px;
- }
- .link-contact:not(:last-child){
+ .nav-item:not(:last-child),
+ .contact-item:not(:last-child){
    margin-right: 50px;
  }
 
