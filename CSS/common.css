@@ -98,6 +98,8 @@
     font-style: normal;
   }
 
+
+
   /* Footer links */
   .footer-link{
     font-weight: 500;
@@ -129,5 +131,11 @@
     letter-spacing: 0.03em;
     font-weight: 500;
   }
-  
+
+  .button-item:hover,
+  .button-item:focus{
+   color:var(--accent-text-color);
+  }
    
+
+  

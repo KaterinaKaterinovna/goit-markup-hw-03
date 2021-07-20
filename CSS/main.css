@@ -49,6 +49,25 @@
 color: #188CE8;
 }
 
+/* Projects */
+.projects{
+  width: 1170px;
+  padding-left: 215px;
+  padding-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-item{
+  width: 370px;
+  
+}
+
 /* Секция преимущества */
 .advantages{
   font-weight: 700;
