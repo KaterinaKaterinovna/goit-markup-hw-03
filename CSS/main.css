@@ -30,8 +30,7 @@
 
 /*Кнопка Заказать услугу */
 .main-button{
-  margin-bottom: 200px;
-  margin-left: 700px;
+  text-align: center;
 
   background-color: #2196F3;
   font-weight: 700;
