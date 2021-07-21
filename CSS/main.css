@@ -3,6 +3,11 @@
   background-color: var(--dark-bg-color);
 }
 
+.footer.dark-bg{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 
 /* Container Hero */
 .container{
@@ -10,7 +15,7 @@
   margin-right: 215px;
 }
 
-.container-hero{
+.hero{
   width: 1600px;
   height: 600px;
 }
@@ -28,33 +33,11 @@
   color: #ffffff;
 }
 
-/*Кнопка Заказать услугу */
-.main-button{
-  text-align: center;
-
-  background-color: #2196F3;
-  font-weight: 700;
-  font-size: 16px;
-  width: 200px;
-  height: 50px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.main-button:hover,
-.main-button:focus{
-color: #188CE8;
-}
 
 /* Projects */
-.projects{
-  width: 1170px;
-  padding-left: 215px;
-  padding-right: 215px;
-  margin-left: auto;
-  margin-right: auto;
+.project{
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
 
 .project-list{

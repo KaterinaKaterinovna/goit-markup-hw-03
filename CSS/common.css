@@ -2,7 +2,9 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-text-color: #2196f3;
-  --dark-bg-color: #2F303A
+  --dark-bg-color: #2F303A;
+  --dark-bg-text-color:#ffffff;
+  --button-background-color: #188ce8;
     
   }
   /* Global Style */
@@ -20,8 +22,26 @@
     list-style: none;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p{
+    margin-top: 0;
+  }
 
-  /* Interactive */
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  } 
+
+ 
+ /* Interactive */
   .link:hover,
   .link:focus{
     color:var(--accent-text-color);
@@ -32,6 +52,8 @@
   .link{
     text-decoration: none;
     color: inherit;
+    padding-left: 0;
+    margin: 0;
   }
 
 
@@ -55,9 +77,29 @@
   .main-nav{
     display: flex;
     align-items: center;
-    width: 1600px;
-    height: 80px;
   }
+
+  /*Кнопка Заказать услугу */
+  .main-button{
+  display: inline-block;
+  color: var(--dark-bg-text-color);
+  background-color: var(--accent-text-color);
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  border-width: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  background: var(--button-background-color);
+  color: var(--dark-bg-text-color);
+}
   
   .link-nav .link,
   .link-contact .link{
@@ -68,11 +110,11 @@
     margin-bottom: 0;
   }
 
- .nav-item:not(:last-child){
+  .nav-item:not(:last-child){
     margin-right: 50px; 
   }
 
- .link-contact .contact-item + .contact-item{
+  .link-contact .contact-item + .contact-item{
     margin-left: 50px;
   }
 
@@ -114,6 +156,7 @@
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     font-style: normal;
+    padding-left: 0;
   }
   .link.footer{
     margin-top: 9px;
@@ -130,6 +173,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #ffffff; 
+    margin-top: 20px;
   } 
 
   /* Button */
@@ -138,12 +182,44 @@
     line-height: 1.62;
     letter-spacing: 0.03em;
     font-weight: 500;
+    outline: none;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    
   }
 
-  .button-item:hover,
-  .button-item:focus{
-   color:var(--accent-text-color);
+  .button:hover,
+  .button:focus{
+    background-color:var(--accent-text-color);
+    color:#ffffff;
   }
+
+  .button-item{
+    border-width: 0
+    border-radius:4px
+    padding-top:6px;
+    outline: none;
+  }
+
+  .button-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .button-list .button-item:not(:last-child) 
+  {margin-right: 8px;
+  }
+
+  button,
+  button:active,
+  button:focus {
+  outline: none;
+}
    
 
   
