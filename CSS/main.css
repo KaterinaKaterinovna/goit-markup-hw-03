@@ -10,19 +10,14 @@
 
 
 /* Container Hero */
-.container{
-  margin-left: 215px;
-  margin-right: 215px;
-}
-
 .hero{
-  width: 1600px;
-  height: 600px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title{
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
   
   text-align: center;
   font-weight: 900;
@@ -35,7 +30,7 @@
 
 
 /* Projects */
-.project{
+.section{
  padding-top: 94px;
  padding-bottom: 94px;
 }
@@ -46,8 +41,7 @@
 }
 
 .project-item{
-  width: 370px;
-  
+  width: 370px; 
 }
 
 /* Секция преимущества */
@@ -89,9 +83,6 @@
 
 /* Потрфолио */
 /* Секция Проекты */
-h2{
-  font-size: 18px;
-}
 .caption-foto{
   font-weight: 400;
   font-size: 16px;
