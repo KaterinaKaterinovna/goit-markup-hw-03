@@ -30,11 +30,6 @@
 
 
 /* Projects */
-.section{
- padding-top: 94px;
- padding-bottom: 94px;
-}
-
 .project-list{
   display: flex;
   flex-wrap: wrap;
@@ -44,8 +39,11 @@
   width: 370px; 
 }
 
-/* Секция преимущества */
+
+/* Advantages */
 .advantages{
+  margin-bottom: 10px;
+    
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -53,6 +51,8 @@
   font-size: 14px;
 }
 .page-text{
+  margin-bottom: 0;
+
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -60,20 +60,39 @@
   color: var(--secondary-text-color);
 }
 
-/*Секция Чем мы занимаемся/Наша команда */
+.card-advantages{
+  display: flex;
+}
+
+.adv-item{
+  width: 270px;
+}
+
+.card-advantages .adv-item + .adv-item {
+  margin-left: 30px; 
+}
+
+/*What we are doing*/
 .page-title{
+  margin-bottom: 50px;
+  text-align: center;
+
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
   font-size: 36px;
-}
+} 
 .foto-name{
-  font-weight: 500;
+  margin-bottom: 10px;
+
+  font-weight: 500; 
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em; 
 }
 .foto-caption{
+  margin-bottom: 0rem;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -81,8 +100,39 @@
   color: var(--secondary-text-color);
 }
 
-/* Потрфолио */
-/* Секция Проекты */
+.card-work{
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.work-item{
+  flex-basis: calc(100%/3);
+}
+
+
+
+/* Our company  */
+.card-projects{
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.projects-item{
+  flex-basis: calc(100%/4);
+}
+
+.card-projects .projects-item{
+  margin-right: 30px;
+}
+
+.card-content{
+  /* padding-left: 60px;
+  padding-right: 60px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
 .caption-foto{
   font-weight: 400;
   font-size: 16px;

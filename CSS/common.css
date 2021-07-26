@@ -38,6 +38,11 @@
     font-size: 18px;
   }
 
+  img{
+    display: block;
+    max-width: 100%;
+  }
+
   .container{
     width: 1200px;
     margin-left: auto;
@@ -45,6 +50,10 @@
     padding-left: 15px;
     padding-right: 15px;
   } 
+
+  .section{
+    padding-top: 94px;
+    }
 
  
  /* Interactive */
@@ -101,7 +110,7 @@
    cursor: pointer;
 }
 
-.main-button:hover {
+ .main-button:hover {
   background: var(--button-background-color);
   color: var(--dark-bg-text-color);
 }
@@ -156,13 +165,15 @@
 
   /* Footer links */
   .footer-link{
+    padding-left: 0;
+
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     font-style: normal;
-    padding-left: 0;
   }
+
   .link.footer{
     margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
@@ -172,14 +183,17 @@
   }
 
   .address{
+    margin-top: 20px;
+    margin-bottom: 0;
+    
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #ffffff; 
-    margin-top: 20px;
+    color: #ffffff;  
   } 
+
 
   /* Button */
   .button{
