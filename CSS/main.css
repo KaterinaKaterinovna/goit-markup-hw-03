@@ -33,11 +33,43 @@
 .project-list{
   display: flex;
   flex-wrap: wrap;
+  margin-top: -30px;
+  margin-top: -30px;
 }
 
 .project-item{
   width: 370px; 
 }
+
+.project-content{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: start;
+}
+
+.caption-foto{
+  margin-bottom: 0;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.text-caption{
+  margin-bottom: 4px;
+}
+
+.project-list .project-item{
+  flex-basis: calc(100%/3 - 30px);
+  
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
+
 
 
 /* Advantages */
@@ -110,8 +142,7 @@
 }
 
 
-
-/* Our company  */
+/* Our company . Studio */
 .card-projects{
   display: flex;
   padding-bottom: 94px;
@@ -126,20 +157,11 @@
 }
 
 .card-content{
-  /* padding-left: 60px;
-  padding-right: 60px; */
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-.caption-foto{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-}
 
 .visually-hidden{
   position: absolute !important;
